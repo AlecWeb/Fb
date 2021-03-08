@@ -21,14 +21,18 @@ body {
 }
 /*ИНТРО*/
 .intro {
-	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	weight: 100%;
 	height: 100vh;
 	 background: url("../images/intro.jpg") center no-repeat;
 	background-size: cover;	
 }
-.intro_innerlmknb {
-	
+.intro_inner {
+	weight:100%;
+	max-width: 800px;
+	margin: 0 auto;
 }
 /* ШАПКА*/
 .header {
