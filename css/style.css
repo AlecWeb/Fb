@@ -18,6 +18,7 @@ body {
 	max-width: 1200px;
 	width: 100%;
 	margin: 0 auto;
+	position: relative;
 }
 /*ИНТРО*/
 .intro {
@@ -29,12 +30,14 @@ body {
 	 background: url("../images/intro.jpg") center no-repeat;
 	background-size: cover;	
 }
+
 .intro_inner {
 	weight:100%;
 	max-width: 800px;
 	margin: 0 auto;
 	position: relative;
 	text-align: center;
+	margin-top: 50px;
 }
 .intro_title:after {
 	content: "";
@@ -43,6 +46,24 @@ body {
 	height: 3px;
 	background-color: #FFFFFF;
 	margin: 30px auto 30px;			
+}
+.social {
+	display: block;
+	margin: 30px;
+	
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	text-align:center;
+	opacity: 0.7;
+	transition: opacity .2s linear;	
+}
+.social:hover {
+	opacity: 1;
+}
+.icon {
+	margin: 0px 5px 0px 5px;
 }
 /* КНОПКА НА ТРАНСЛЯЦИЮ*/
 .btn {
@@ -70,13 +91,22 @@ body {
 	top: 0;
 	left: 0;
 	right: 0;	
+	
+	
 }
 /* ЛОГО, НАВ МЕНЮ И КНОПКА ДОНАТА*/
 .header_inner {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	position: fixed;
+	left: 100px;
+	right: 100px;
+	
+	
+  
 }
+
 /* НАВ МЕНЮ*/
 .nav {
 	font-size: 20px;	
@@ -93,6 +123,7 @@ body {
 	position: relative;
 		
 }
+/* КНОПКА ДОНАТА*/
 .give {
 	padding: 0px 10px;
 	border: 2px solid #FFFFFF;
