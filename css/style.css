@@ -55,6 +55,11 @@ body {
 	font-size: 16px;
 	font-weight: 700;
 	text-decoration: none;
+	transition: color .2s linear;
+}
+.btn:hover {
+	color: #F3D4FF;
+	border: 3px solid #F3D4FF;
 }
 /* ШАПКА*/
 .header {
@@ -94,6 +99,11 @@ body {
 	font-size: 20px;
 	font-weight: 400;
 	text-transform: capitalize;
+	transition: color .2s linear;
+}
+.give:hover {
+	color: #F3D4FF;
+	border: 2px solid #F3D4FF;
 }
 /* ПОДЧЕРКИВАНИЕ КНОПОК*/
 .nav_link:after {
