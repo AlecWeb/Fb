@@ -47,23 +47,23 @@ body {
 	background-color: #FFFFFF;
 	margin: 30px auto 30px;			
 }
+/*КНОПКИ СОЦ СЕТЕЙ*/
 .social {
-	display: block;
 	margin: 30px;
-	
 	bottom: 0;
 	left: 0;
 	right: 0;
 	position: absolute;
 	text-align:center;
-	opacity: 0.7;
-	transition: opacity .2s linear;	
+			
 }
-.social:hover {
+.icon:hover {
 	opacity: 1;
 }
 .icon {
 	margin: 0px 5px 0px 5px;
+	opacity: 0.7;
+	transition: opacity .2s linear;	
 }
 /* КНОПКА НА ТРАНСЛЯЦИЮ*/
 .btn {
@@ -90,9 +90,7 @@ body {
 	weight:  100%;
 	top: 0;
 	left: 0;
-	right: 0;	
-	
-	
+	right: 0;			
 }
 /* ЛОГО, НАВ МЕНЮ И КНОПКА ДОНАТА*/
 .header_inner {
@@ -101,10 +99,7 @@ body {
 	align-items: center;
 	position: fixed;
 	left: 100px;
-	right: 100px;
-	
-	
-  
+	right: 100px;	
 }
 
 /* НАВ МЕНЮ*/
@@ -120,8 +115,7 @@ body {
 	color: #FFFFFF;
 	text-decoration: none;
 	transition: color .2s linear;
-	position: relative;
-		
+	position: relative;		
 }
 /* КНОПКА ДОНАТА*/
 .give {
@@ -148,17 +142,14 @@ body {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	z-index: 1;
-	
+	z-index: 1;	
 	position: absolute;
 	transition: opacity .2s linear;				
 }
 .nav_link:hover {
-	color: #F3D4FF;
-		
+	color: #F3D4FF;		
 }
 .nav_link:hover:after {
 	display: block;
-	opacity: 1;
-	
+	opacity: 1;	
 }
