@@ -84,7 +84,7 @@ body {
 }
 /* ШАПКА*/
 .header {
-	padding-top: 10px;
+	padding-top: 20px;
 	position: absolute;
 	z-index: 1000;
 	weight:  100%;
