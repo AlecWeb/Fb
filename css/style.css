@@ -3,6 +3,7 @@ body {
 	font-family: roboto;
 	font-size: 18px;
 	line-height: 1.6;
+	
 }
 *,
 *:before,
@@ -99,8 +100,10 @@ body {
 	align-items: center;
 	position: fixed;
 	left: 100px;
-	right: 100px;	
+	right: 100px;
+	
 }
+
 
 /* НАВ МЕНЮ*/
 .nav {
@@ -153,3 +156,8 @@ body {
 	display: block;
 	opacity: 1;	
 }
+
+   
+
+
+

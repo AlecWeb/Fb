@@ -5,27 +5,37 @@
     <title>First Baptist Church</title>
 	 <link rel="stylesheet" href="css/Style.css">
 	  <script src="/scripts/script.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   </head>
   <body>
 	  
-	  <header class="header">       		
+	  <header class="header">
+		 
            <div class="container">
+			   
+  
+    
 			   <div class="header_inner">
-				   <div class="header_logo"><img src="images/logo.png" height="50px"> </div>
+				   
+				  <div class="header_logo">⠀<img src="images/logo.png" height="50px"></div>
 				   <nav class="nav">          	
 						<a class="nav_link" href="#">About us</a>
 						<a class="nav_link" href="#">Join</a>
 						<a class="nav_link" href="#">Ministries</a>
 						<a class="nav_link" href="#">Contact</a>
 						<a class="nav_link" href="#">Live Stream</a>
-					   <a href="#" class="btn give" >Give</a>        	 	
+					   <a href="#" class="btn give" >Give</a> ⠀   	 	
 				  </nav>
        		</div>
 		  </div>
+				   
+
       </header>
 	  <div class="intro">
+		  
 		  <div class="container">
-			  <div class="intro_inner">
+			  <div class="intro_inner ">
+				  
 				  <div class="intro_title">
       <img src="images/WelcomeHome.png">
 					  </div>
@@ -44,5 +54,23 @@
       <p>The cornerstone of First Baptist Dallas was laid in 1890 by a small group of believers determined to begin a Baptist church in downtown Dallas. Under the leadership of legendary pastors and teachers like George W. Truett and W.A. Criswell, First Baptist Dallas became an anchor in the Christian community, a church known for a firm foundation built on the Bible.
 
 Led by Dr. Robert Jeffress since 2007, we continue that legacy today. Dr. Jeffress ushered in a new season of ministry at the church that reinforces our calling to reach our city, nation, and world for Christ through four primary courses of action:</p>
+  <script>
+	
+$(document).ready(function(){       
+            var scroll_pos = 0;
+            $(document).scroll(function() { 
+                scroll_pos = $(this).scrollTop();
+                if(scroll_pos > 30) {
+                    $(".header_inner").css('background-color', 'rgba(0, 0, 0, 0.5)');
+                    $("nav a").css('color', '');
+                } else {
+                    $(".header_inner").css('background-color', 'rgba(0, 0, 0, 0)');
+                    $("nav a").css('color', '');
+                }
+            });
+        });
+ </script>
+	  
+   
   </body>
 </html>
