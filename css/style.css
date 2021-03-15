@@ -4,6 +4,7 @@ body {
 	font-size: 18px;
 	line-height: 1.6;
 	
+	
 }
 *,
 *:before,
@@ -30,6 +31,8 @@ body {
 	height: 100vh;
 	 background: url("../images/intro.jpg") center no-repeat;
 	background-size: cover;	
+	background-attachment: fixed;
+	 box-shadow: 0 0 30px rgba(0,0,0,0.7);
 }
 
 .intro_inner {
@@ -65,6 +68,9 @@ body {
 	margin: 0px 5px 0px 5px;
 	opacity: 0.7;
 	transition: opacity .2s linear;	
+}
+a {
+	text-decoration: none;
 }
 /* КНОПКА НА ТРАНСЛЯЦИЮ*/
 .btn {
@@ -156,6 +162,36 @@ body {
 	display: block;
 	opacity: 1;	
 }
+
+/* WHO WE ARE*/
+
+.about {
+	display: flex;
+  flex-flow: row nowrap;
+  
+}
+.textabout {
+	padding: 0 30px 0 50px;	
+	font-weight: 600;
+	font-size: 22px;
+	color: #732995;
+}
+h1 {
+	
+  font-size: 50px;
+  font-family: "Roboto";
+  color: rgb(115, 41, 149);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: 0px 5px 2.94px rgba(0, 0, 0, 0.17);
+ 
+  margin: 30px;
+  z-index: 12;
+}
+
+}
+
 
    
 
