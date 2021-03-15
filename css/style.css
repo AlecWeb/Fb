@@ -189,8 +189,28 @@ h1 {
   margin: 30px;
   z-index: 12;
 }
+.map {
+	display: flex;
+		
+	
+	
+	 
+	
 
 }
+.mapiframe {
+	
+}
+
+.napback {
+	background: url("../images/backmap.png") ;
+	weight:100%;
+	height: 450px;	
+	background-attachment: fixed;
+	
+}
+
+
 
 
    
