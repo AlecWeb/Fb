@@ -235,7 +235,9 @@ flex-wrap: wrap;
 .Minblock {
 weight: 33.33333%;	
   background: linear-gradient( 10deg, rgb(150,23,205) 0%, rgb(40,113,250) 50%);
+	background-attachment: fixed;
 margin: 15px 15px;
+	
 }
 .Minblock::hover {
 	
