@@ -3,6 +3,7 @@ body {
 	font-family: roboto;
 	font-size: 18px;
 	line-height: 1.6;
+	height: 3000px;
 	
 	
 }
@@ -171,6 +172,7 @@ a {
 .about {
 	display: flex;
   flex-flow: row nowrap;
+	margin-bottom: 50px;
   
 }
 .textabout {
@@ -220,11 +222,13 @@ line-height: 1.3;
 	margin-left: 10px;
 }
 
-.napback {
+.mapback {
 	background: url("../images/backmap.png") ;
 	weight:100%;
 	height: 540px;
 	background-attachment: fixed;
+	box-shadow: 0 0 30px rgba(0,0,0,0.7);
+	
 	 
 	
 }
