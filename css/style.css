@@ -245,7 +245,7 @@ transition: background 0.5s ease;
 }
 .Minblock img{
 transition: width .2s linear;
-transition-delay: 0.2s
+transition-delay: 0.3s
 }
 
 .Minblock:hover img {
