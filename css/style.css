@@ -237,7 +237,7 @@ flex-wrap: wrap;
 }
 .Minblock {
 text-align: center;
-background: linear-gradient( 10deg, rgb(140,23,205) 25%, rgb(40,113,250) 90%);  
+background: linear-gradient( 10deg, rgb(140,23,205) 20%, rgb(40,113,250) 90%);  
 background-attachment: fixed;
 box-shadow: 0 0 10px rgba(0,0,0,0.7);
 margin: 15px 15px;	
